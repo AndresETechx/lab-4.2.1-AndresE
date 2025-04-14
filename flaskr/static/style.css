@@ -1,21 +1,42 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+/* Base styling */
 html {
-    margin: 25px;
-    background-color: lightblue;
-    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7f1;
+    font-family: Verdana, sans-serif;
     font-size: 20px;
 }
 
-h3 {
-    margin-top: 20px;
-    background-color: lightblue;
-    font-size: 30px;
-    font-weight: bolder;
+/* Page wrapper */
+body {
+    margin: 25px;
 }
 
+/* Headings */
+h3 {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e0c3f3; /* soft purple */
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Paragraphs */
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    padding: 10px;
+    background-color: #d3eff5; /* soft blue */
+    border-radius: 6px;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

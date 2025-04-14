@@ -6,11 +6,16 @@ Wiki Pages
 
 {% block content %}
 <h3>Pages contained in this Wiki</h3>
-<ul>
+
+<ul class="mt-3 ml-4">
     {% for page in all_pages %}
-    <li><a href="{{ url_for('pages', name=page) }}">{{page}}</a></li>
+    <li>
+        <a class="has-text-link" href="{{ url_for('pages', name=page) }}">
+            {{ page }}
+        </a>
+    </li>
     {% endfor %}
 </ul>
-
 {% endblock %}
+
 
